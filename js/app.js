@@ -9,10 +9,10 @@ $(document).ready(function(){
     })
 // This object logs strings onto the page automatically
     var typed = new Typed(".element", {
-        strings: ["I'm Mikhael", "I'm a Developer", "Need help with your Website?", "Have a look around!" ],
+        strings: ["I'm a Software Developer", "I'm Full Stack Developer", "I'm a Web App Developer", "I'm a Mobile Developer"],
         smartBackspace: true,
-        typeSpeed: 100,
-        backSpeed: 100,
+        typeSpeed: 250,
+        backSpeed: 200,
         loop: true,
         loopCount: Infinity,
         startDelay: 1000
@@ -47,3 +47,6 @@ $(document).ready(function(){
     });
 
 });
+
+// email validator
+

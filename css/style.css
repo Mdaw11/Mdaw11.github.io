@@ -157,7 +157,7 @@ nav.stickyadd .hamburger{
 header{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Images/StrawhatBG.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Images/Downtown.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
