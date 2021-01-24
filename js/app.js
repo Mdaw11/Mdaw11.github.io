@@ -11,8 +11,8 @@ $(document).ready(function(){
     var typed = new Typed(".element", {
         strings: ["I'm a Software Developer", "I'm Full Stack Developer", "I'm a Web App Developer", "I'm a Mobile Developer"],
         smartBackspace: true,
-        typeSpeed: 250,
-        backSpeed: 200,
+        typeSpeed: 50,
+        backSpeed: 75,
         loop: true,
         loopCount: Infinity,
         startDelay: 1000
@@ -26,9 +26,9 @@ $(document).ready(function(){
             p[0].setAttribute("style", "width:100%;transition:1s all");
             p[1].setAttribute("style", "width:95%;transition:1.5s all");
             p[2].setAttribute("style", "width:85%;transition:1.7s all");
-            p[3].setAttribute("style", "width:85%;transition:1.7s all");
+            p[3].setAttribute("style", "width:85%;transition:1.9s all");
             p[4].setAttribute("style", "width:95%;transition:2s all");
-            p[5].setAttribute("style", "width:85%;transition:2.3s all");
+            p[5].setAttribute("style", "width:85%;transition:2.2s all");
             p[6].setAttribute("style", "width:80%;transition:2.3s all");        
         },
         offset:'90%'
