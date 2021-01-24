@@ -11,8 +11,8 @@ $(document).ready(function(){
     var typed = new Typed(".element", {
         strings: ["I'm a Software Developer", "I'm Full Stack Developer", "I'm a Web App Developer", "I'm a Mobile Developer"],
         smartBackspace: true,
-        typeSpeed: 50,
-        backSpeed: 75,
+        typeSpeed: 100,
+        backSpeed: 100,
         loop: true,
         loopCount: Infinity,
         startDelay: 1000
