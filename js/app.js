@@ -9,10 +9,10 @@ $(document).ready(function(){
     })
 // This object logs strings onto the page automatically
     var typed = new Typed(".element", {
-        strings: ["I'm a Software Developer", "I'm Full Stack Developer", "I'm a Web App Developer", "I'm a Mobile Developer"],
+        strings: ["I'm a Software Developer", "I'm a Full Stack Developer", "I'm a Web App Developer", "I'm a Mobile Developer"],
         smartBackspace: true,
-        typeSpeed: 100,
-        backSpeed: 100,
+        typeSpeed: 150,
+        backSpeed: 150,
         loop: true,
         loopCount: Infinity,
         startDelay: 1000
